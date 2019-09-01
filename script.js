@@ -239,7 +239,7 @@ function startGUI () {
 
     let app = gui.add({ fun : () => {
         ga('send', 'event', 'link button', 'wiki');
-        window.open('wiki.frostbyrne.io');
+        window.open('https://wiki.frostbyrne.io');
     } }, 'fun').name('My Wiki');
     app.__li.className = 'cr function appBigFont';
     app.__li.style.borderLeft = '3px solid #00FF7F';
